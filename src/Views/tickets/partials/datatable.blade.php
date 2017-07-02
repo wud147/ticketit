@@ -1,4 +1,4 @@
-<table class="table table-condensed table-stripe ddt-responsive" class="ticketit-table">
+<table id="ticketit_table" class="table table-condensed table-stripe ddt-responsive">
     <thead>
         <tr>
             <td>{{ trans('ticketit::lang.table-id') }}</td>
