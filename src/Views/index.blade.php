@@ -1,4 +1,4 @@
-@extends($user_master)
+@extends($master)
 
 @section('page')
     {{ trans('ticketit::lang.index-title') }}

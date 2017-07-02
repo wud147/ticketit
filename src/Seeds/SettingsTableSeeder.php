@@ -96,8 +96,6 @@ class SettingsTableSeeder extends Seeder
              * Default: resources/views/master.blade.php
              */
             'master_template' => 'master',
-
-            'user_master_template' => 'user_master',
             /*
              * Template adherence: The email blade template to be extended
              * Default: ticketit::emails.templates.ticketit
