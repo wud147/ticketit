@@ -1,4 +1,4 @@
-@extends($master)
+@extends($user_master)
 @section('page', trans('ticketit::lang.show-ticket-title') . trans('ticketit::lang.colon') . $ticket->subject)
 @section('content')
         @include('ticketit::shared.header')

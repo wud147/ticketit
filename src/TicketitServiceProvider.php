@@ -62,6 +62,7 @@ class TicketitServiceProvider extends ServiceProvider
             view()->composer('ticketit::*', function ($view) {
                 $tools = new ToolsController();
                 $master = Setting::grab('master_template');
+                $user_master = Setting::grab('user_master_template');
                 $email = Setting::grab('email.template');
                 $editor_enabled = Setting::grab('editor_enabled');
                 $codemirror_enabled = Setting::grab('editor_html_highlighter');

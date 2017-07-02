@@ -1,4 +1,4 @@
-@extends($master)
+@extends($user_master)
 @section('page', trans('ticketit::lang.create-ticket-title'))
 
 @section('content')
