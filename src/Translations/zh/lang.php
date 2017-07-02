@@ -60,7 +60,7 @@ return [
   'priority'                         => '优先级',
   'reopen-ticket'                    => '重新打开',
   'reply'                            => '回复',
-  'responsible'                      => 'Responsible',
+  'responsible'                      => '客服',
   'status'                           => '状态',
   'subject'                          => '主题',
 
