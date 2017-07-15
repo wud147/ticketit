@@ -10,9 +10,7 @@
 @stop
 
 @section('footer')
-	<script src="//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
-	<script src="//cdn.datatables.net/plug-ins/505bef35b56/integration/bootstrap/3/dataTables.bootstrap.js"></script>
-	<script src="//cdn.datatables.net/responsive/1.0.7/js/dataTables.responsive.min.js"></script>
+  <script src="{!! elixir('panel/datatables.js') !!}"></script>
 	<script>
     if ( !$.fn.dataTable.isDataTable( '#ticketit_table' ) ) {
 	    $('#ticketit_table').DataTable({
