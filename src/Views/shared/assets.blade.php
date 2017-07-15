@@ -10,5 +10,5 @@
             document.getElementsByTagName("head")[0].appendChild(file)
         }
     }
-    loadCSS({!! elixir('panel/ticketit.css') !!});
+    loadCSS("{!! elixir('panel/ticketit.css') !!}");
 </script>
